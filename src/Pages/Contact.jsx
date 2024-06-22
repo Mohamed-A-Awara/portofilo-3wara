@@ -6,10 +6,12 @@ import '../Styles/Contact.style.css'
 import formphoto from '../assets/Images/formphoto.png'
 
 function Contact() {
+    const MobileWidth = screen.availWidth < 768
+
     return (
         <section className='allParent'>
              {/* Header */}
-            <div className="section-header serHead">
+            <div className={MobileWidth ? "section-header mt-4" : "section-header"}>
                     <h1 className='serTitile'>Contact Me</h1>
             </div>
             {/* Header */}
