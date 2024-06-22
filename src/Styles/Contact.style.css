@@ -27,10 +27,11 @@
 }
 .form-data h1{
     align-self: flex-start;
-    opacity: 0.7;
+    opacity: 0.85;
     letter-spacing: 3px;
     font-weight: 900;
     transform: translate(8% , -50%);
+    color: #fff ;
 }
 .form-data .input-data{
     border-radius: 30px;

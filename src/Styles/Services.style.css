@@ -93,4 +93,7 @@
     .serTitile{
         font-size: 10px !important;
     }
+    .card-Parent{
+        margin: 15px 0 !important;
+    }
 }
