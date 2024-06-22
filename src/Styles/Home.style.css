@@ -1,0 +1,153 @@
+/* ***************************** Start Home Design Style **************************** */
+.allHome{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.homeDesign{
+    min-height: 100vh;
+    width: 50%;
+    /* background-color: beige; */
+    padding: 10rem 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: ; */
+}
+.homeData{
+    padding: 3rem ;
+    max-width: 44rem;
+    /* background-color: aquamarine; */
+    color:var(--whiteColor) 
+    
+}
+.homeData h3 {
+    font-size:  3.2rem ;
+    font-weight: 700;
+    line-height: .3;
+
+}
+.homeData h1{
+    font-size: 5.6rem ;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.homeData p {
+    font-size: 1.6rem ;
+}
+.btnCv{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1.2rem 2.8rem !important ;
+    background-color: var(--fontColor);
+    border-radius: 1.3rem ;
+    box-shadow: 0 .2rem .5rem var(--shadowColor);
+    font-size: 1.3rem;
+    color: var(--whiteColor);
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    border:  0.2rem solid transparent;
+    transition: 0.5s ease ;
+}
+.btnCv:hover {
+    background: transparent;
+    color: var(--fontColor);
+    border-color: var(--fontColor);
+}
+/* ***************************** End Home Design Style **************************** */
+
+/* ***************************** Start Home Box Container Style ******************/
+.homebox{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    /* background: var(--fontColor); */
+    /* clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 52% 100%, 10% 50%, 54% 0); */
+    /* clip-path: polygon(77% 0, 100% 0%, 100% 100%, 13% 100%); */
+    /* clip-path: polygon(55% 0, 100% 0%, 100% 100%, 0 100%); */
+    pointer-events: none;
+    z-index: 100001 !important;
+}
+.imgBox{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 70%;
+    z-index: 100001 !important;
+
+}
+.imgBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+/* ***************************** End Home Box Container Style ******************/
+
+/* Start Line Style */
+.line {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(35, 48, 47, 1) 27%, rgba(26, 51, 111, 1) 83%);
+    /* clip-path: polygon(100% 0, 90% 28%, 65% 100%, 23% 100%, 44% 47%, 61% 0); */
+    /* clip-path: polygon(65% 0, 100% 0, 79% 100%, 10% 100%); */
+    clip-path: polygon(54% 0, 100% 0, 67% 100%, 10% 100%);
+}
+
+
+
+
+
+
+
+
+/* Responsive CSS Style   */
+@media screen and (max-width: 768px) {
+    .allHome{
+        flex-direction: column;
+    }
+    .homeDesign{
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .homeData{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .homeData h1{
+        font-size: 5rem ;
+    }
+    .btnCv{
+        margin-left: 0 !important;
+        margin-top: 2rem;
+    }
+    .homebox{
+        width: 100%;
+        clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
+    }
+    .imgBox{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        z-index: 10000;
+    }
+    .line{
+        width: 100%;
+        height: 100vh;
+        bottom: 0;
+        /* clip-path: polygon(0 0, 100% 0, 65% 100%, 36% 100%); */
+        /* clip-path: polygon(0 0, 57% 28%, 100% 50%, 100% 100%, 43% 73%, 0% 50%); */
+        clip-path: polygon(0 13%, 44% 30%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+        background: linear-gradient(90deg, rgba(65, 79, 138, 1) 39%, rgba(31, 41, 84, 1) 57%, rgba(7, 58, 187, 1) 100%);
+        /* background: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); */
+        /* background: linear-gradient(90deg, rgba(59, 91, 226, 1) 49%, rgba(7, 58, 187, 1) 100%); */
+    }
+}

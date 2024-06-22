@@ -1,0 +1,61 @@
+.skill-section{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(65, 110, 175, 1) 0%, rgba(46, 53, 69, 1) 51%, rgba(12, 53, 106, 1) 92%); */
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(226, 226, 226, 1) 51%, rgba(12, 52, 106, 0.22) 92%); */
+    background: radial-gradient(circle at 0% 100%, rgba(27, 39, 38, 0.96) 23%, rgba(60, 89, 193, 0.88) 51%, rgba(26, 51, 111, 0.97) 100%);
+    background: radial-gradient(circle at 0% 100%, rgba(27, 39, 38, 0.96) 23%, rgba(60, 89, 193, 0.88) 75%, rgba(26, 51, 111, 0.97) 100%);
+}
+/* circle-Progress Style */
+.circle-Progress{
+    fill: none;
+    stroke: #ddd;
+}
+.circle-ProgressAfter{
+    fill: none;
+    /* stroke: rgb(255, 163, 25); */
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.circleText{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.circleTextSkill{
+    font-size: 1.6rem;
+    font-weight: bold;
+    fill: var(--fontColor);
+}
+/* End Circle  */
+.skillBox{
+    height: 100%;
+    background-color: #1515158f;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5rem 2rem;
+    margin-top: 110px;
+}
+.skill-slider{
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS Style   */
+@media screen and (max-width: 768px) {
+    .skillBox{
+        border-radius: 60px;
+        padding: 3rem ;
+    }
+}

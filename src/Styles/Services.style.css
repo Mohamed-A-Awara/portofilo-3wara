@@ -1,0 +1,95 @@
+.service-section{
+    height: auto;
+    width: 100% ;
+    overflow: hidden;
+    /* margin-bottom: 50px !important; */
+}
+.serContainer{
+    margin-top: 1.5rem !important;
+}
+.serHead{
+    margin-top: -35px;
+}
+.main-card-style {
+    width: 100% !important;
+    height: 95% !important;
+    border-radius: 100px 50px !important;
+    background-color: #f7f9f2a7;
+    box-shadow: 1px 1px 10px 15px var(--shadowColor) ;
+    transition: all 1s;
+}
+.main-card-style:after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0;
+    top: 0;
+    left:0;
+    /* background-color: var(--hoverBackground); */
+    background-color: rgba(0, 0, 0, 0.583);
+    transition: 0.5s;
+    opacity: 0.3;
+    border-radius: 100px 50px !important;
+
+}
+.main-card-style::before{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0;
+    bottom: 0;
+    right:0;
+    /* background-color: var(--hoverBackground); */
+    background-color: rgba(0, 0, 0, 0.583);
+    transition: 0.5s;
+    opacity: 0.3;
+    border-radius: 100px 50px !important;
+
+}
+.main-card-style:hover:after{
+    width: 100%;
+    height: 100%;
+}
+.main-card-style:hover::before{
+
+    width: 100%;
+    height: 100%;
+    
+}
+.main-card-style:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+    background-color: var(--fontColor);
+}
+.main-card-style:hover .service-icon{
+    color: black;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+}
+.service-icon{
+    font-size: 5rem;
+    padding: 1rem 2rem;
+    color: #5A72A0;
+}
+
+.card-Parent{
+    min-height: 40vh !important;
+}
+
+
+/* Responsive CSS Style   */
+@media screen and (max-width: 768px) {
+    /* Handle Header */
+    .serTitile{
+        font-size: 10px !important;
+    }
+}
