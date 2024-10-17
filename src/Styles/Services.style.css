@@ -1,5 +1,5 @@
 .service-section{
-    height: 110vh;
+    height: auto;
     width: 100% ;
     overflow: hidden;
     /* margin-bottom: 50px !important; */
@@ -13,7 +13,7 @@
     height: 95% !important;
     border-radius: 100px 50px !important;
     background-color: #f7f9f2a7;
-    box-shadow: 1px 1px 10px 15px var(--shadowColor) ;
+    /* box-shadow: 1px 1px 10px 15px var(--shadowColor) ; */
     transition: all 1s;
 }
 .main-card-style:after{
@@ -58,7 +58,7 @@
     transform: scale(1.1);
     color: #ffffff;
     background-color: var(--fontColor);
-    box-shadow: 1px 1px 20px 5px #ffff ;
+    /* box-shadow: 1px 1px 20px 5px #ffff ; */
 
 }
 .main-card-style:hover .service-icon{

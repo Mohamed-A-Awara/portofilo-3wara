@@ -8,17 +8,28 @@
 
 .projectCard{
     width: 100% !important;
-    height: 30vh !important;
+    /* height: 30vh !important; */
     margin: 0 auto;
-    border-radius: 50px  !important;
+    border-radius: 15px  !important;
     position: relative;
+    overflow: hidden;
+    transition: 0.5s all ease-in-out;
 }
+.projectCard:hover  img {
+    transform: scale(1.1);
+}
+.projectCard:hover   {
+    transform: translateX(5px);
+    /* transform: translateY(5px); */
 
+}
 .projectCard img {
     height: 100% ;
     width: 100%;
-    object-fit: fill;
-    border-radius: 50px  !important;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+    overflow: hidden !important;
+    /* border-radius: 50px  !important; */
 
 }
 
@@ -74,4 +85,98 @@
     font-weight: 700;
     letter-spacing: 3px;
     border-radius: 25px ;
+}
+
+/* New Desing  */
+.pro-body{
+    position: relative;
+}
+.pro-title{
+    text-align: left !important;
+    font-size: 1.2rem !important;
+    text-transform: capitalize;
+
+}
+.pro-text{
+    font-size: 1.1rem !important;
+    text-align: left !important;
+    text-transform: capitalize;
+}
+.pro-link{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 128, 0, 0.801);
+    border: 1px solid white;
+    font-size: 1.3rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all ease-in-out;
+}
+.pro-link:hover{
+    background-color: transparent;
+    color: green;
+    border-color: green;
+}
+.pro-icons{
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid var(--fontColor);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem ;
+    color: var(--fontColor);    
+    padding: 5px;
+}
+
+
+
+/* Start Parts Of Projects */
+.project-section nav{
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(28, 22, 22);
+    height: 70px;
+    border-radius: 100px;
+    transition: 1s all ease-in-out;
+}
+.project-section nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px ;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* background-color: aqua; */
+    border-radius: 100px 0px 0px 100px;
+    transition: 1s all ease-in-out;
+}
+.project-section nav .noborder{
+    border-radius: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.project-section nav .noright{
+    border-radius: 0px 100px 100px 0px;
+}
+.project-section nav a:hover{
+    background: -webkit-linear-gradient(top,rgb(50, 69, 108),rgb(66, 66, 102),rgb(21, 43, 61));
+}
+.project-section nav a:focus{
+    color: white;
+    font-size: 22px;
 }

@@ -24,7 +24,7 @@ function Services() {
 
             <div className="HandleContainer serContainer">
                 <Row>
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent mb-4'>
                         <Card  className='main-card-style'>
                             <Card.Text className='service-icon'> <FaCode /> </Card.Text>
                             <Card.Body>
@@ -34,7 +34,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent  mb-4'>
                         <Card className='main-card-style' >
                             <Card.Text className='service-icon'> <IoServer /> </Card.Text>
                             <Card.Body>
@@ -45,7 +45,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent' >
+                    <Col lg='3' md='6' sm='10' className='card-Parent  mb-4' >
                         <Card className='main-card-style'>
                             <Card.Text className='service-icon'> <FaLaptopCode /> </Card.Text>
                             <Card.Body>
@@ -56,7 +56,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent  mb-4'>
                         <Card className='main-card-style'>
                             <Card.Text className='service-icon'> <FcEditImage /> </Card.Text>
                             <Card.Body>
@@ -66,7 +66,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent  mb-4'>
                         <Card  className='main-card-style'>
                             <Card.Text className='service-icon'> <FcAddDatabase /> </Card.Text>
                             <Card.Body>
@@ -76,7 +76,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent  mb-4'>
                         <Card className='main-card-style'>
                             <Card.Text className='service-icon'> <GrSystem /> </Card.Text>
                             <Card.Body>
@@ -86,7 +86,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent  mb-4'>
                         <Card className='main-card-style'>
                             <Card.Text className='service-icon'> <MdOutlineDisplaySettings /> </Card.Text>
                             <Card.Body>
@@ -96,7 +96,7 @@ function Services() {
                         </Card>
                     </Col>
 
-                    <Col lg='3' md='6' sm='10' className='card-Parent'>
+                    <Col lg='3' md='6' sm='10' className='card-Parent mb-4'>
                         <Card className='main-card-style'>
                             <Card.Text className='service-icon'> <BiLogoJavascript /> </Card.Text>
                             <Card.Body>

@@ -29,13 +29,27 @@
     line-height: .3;
 
 }
+.homeData h3 span{
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
 .homeData h1{
     font-size: 5.6rem ;
     font-weight: 700;
     margin-bottom: 0.3rem;
+    background: linear-gradient(to right, var(--fontColor), var(--whiteColor)  ); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 .homeData p {
     font-size: 1.6rem ;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: justify;
+
 }
 .btnCv{
     margin-top: 1rem;
@@ -124,7 +138,16 @@
         text-align: center;
     }
     .homeData h1{
-        font-size: 5rem ;
+        font-size: 4.5rem ;
+        margin: 50px 0;
+    }
+    .homeData h3 span{
+        font-size: 3rem;
+    }
+    .homeData p{
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
     }
     .btnCv{
         margin-left: 0 !important;

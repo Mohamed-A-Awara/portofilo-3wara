@@ -33,7 +33,7 @@
     border-radius: 100px;
     text-align: center;
     padding: 5rem 2rem;
-    margin-top: 110px;
+    /* margin-top: 110px; */
 }
 .skill-slider{
     height: 100%;
@@ -41,6 +41,15 @@
 }
 
 
+.skill-section .title-des{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #E5E5FF;
+    opacity: 0.8;
+}
 
 
 

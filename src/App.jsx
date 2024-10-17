@@ -13,6 +13,9 @@ import './App.css'
 import Services from './Pages/Services';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import AllProjects from './Pages/ProjectsParts/AllProjects';
+import FrontendPro from './Pages/ProjectsParts/FrontendPro';
+import BackendPro from './Pages/ProjectsParts/BackendPro';
 
 
 function App() {
@@ -25,8 +28,12 @@ function App() {
         <Route  path='/home' element={<Home />} /> 
         <Route path='/skills' element={<Skills />} /> 
         <Route path='/services' element={<Services />} /> 
-        <Route path='/projects' element={<Projects />} /> 
         <Route path='/contact' element={<Contact />} /> 
+        <Route path='/projects' element={<Projects />} >
+          <Route  path='all' element={<AllProjects/>}/> 
+          <Route  path='frontend' element={<FrontendPro/>}/> 
+          <Route  path='backend' element={<BackendPro/>}/> 
+        </Route> 
       </Routes>
       </BrowserRouter>
     </>
