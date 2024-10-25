@@ -47,7 +47,7 @@ function Projects() {
             {/* Header */}
 
 
-            <nav>
+            <nav className='projectNav'>
                 <Link onClick={() => setView('all')}>All Projects</Link>
                 <Link onClick={() => setView('frontend')} className='noborder'>Frontend </Link>
                 {/* <Link onClick={() => setView('frontend')} className='noborder'>Frontend Projects</Link> */}

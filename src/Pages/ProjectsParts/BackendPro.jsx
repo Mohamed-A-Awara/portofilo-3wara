@@ -4,7 +4,7 @@ import '../../Styles/Projects.style.css'
 
 function BackendPro() {
     return (
-        <div>BackendPro</div>
+        <h1 className='text-white text-center'>Not Inserted Yet ! 🤦‍♂️ </h1>
     )
 }
 

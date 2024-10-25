@@ -151,7 +151,7 @@
 
 
 /* Start Parts Of Projects */
-.project-section nav {
+.project-section .projectNav {
     display: flex;
     width: 60%;
     margin: 20px auto;
@@ -163,7 +163,7 @@
     transition: 1s all ease-in-out;
 }
 
-.project-section nav a {
+.project-section .projectNav a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,31 +180,34 @@
     transition: 1s all ease-in-out;
 }
 
-.project-section nav .noborder {
+.project-section .projectNav .noborder {
     border-radius: 0;
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
 
-.project-section nav .noright {
+.project-section .projectNav .noright {
     border-radius: 0px 100px 100px 0px;
 }
 
-.project-section nav a:hover {
+.project-section .projectNav a:hover {
     background: -webkit-linear-gradient(top, rgb(50, 69, 108), rgb(66, 66, 102), rgb(21, 43, 61));
 }
 
-.project-section nav a:focus {
+.project-section .projectNav a:focus {
     color: white;
     font-size: 22px;
 }
-
+.pagination-parent{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
-    .project-section nav {
+    .project-section .projectNav {
         width: 95%;
     }
-    .project-section nav a {
+    .project-section .projectNav a {
         font-size: 18px;
         font-weight: 600 !important;
     }
